@@ -1,0 +1,51 @@
+#app {
+  display: grid;
+  grid-template-columns: 400px auto; /* Largura fixa para a coluna do aside */
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Aside à esquerda */
+aside {
+  position: relative;
+  background-color: var(--color-shape-bg);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.25rem;
+  color: white;
+}
+
+.bg-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 40px; /* Reposicionar o conteúdo sobre a imagem */
+  left: 40px;
+  text-align: left;
+  color: white;
+  z-index: 2;
+}
+
+.overlay-content h1 {
+  color: var(--color-accent-pink);
+  font: var(--text-logo);
+  margin: 0.5rem 0;
+}
+
+.overlay-content p {
+  font: var(--text-md-Open);
+  color: var(--color-text-hearding);
+  margin: 0.5rem 0;
+}
+
+.icon {
+  width: 50px; /* Tamanho do ícone */
+  margin-bottom: 1rem;
+}

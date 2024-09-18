@@ -1,0 +1,6 @@
+main {
+  background-color: var(--color-shape-body);
+  border-radius: 10px;
+  margin-right: 1.25rem;
+  padding: 0 1.25rem;
+}

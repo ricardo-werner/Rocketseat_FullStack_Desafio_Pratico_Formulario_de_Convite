@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-LeckOne: "Leckerli One", sans-serif;
+  --font-family-OpenSans: "Open Sans", sans-serif;
+  --font-family-Ballo: "Ballo 2", sans-serif;
+
+  --text-logo: 400 40px var(--font-family-LeckOne);
+  --text-md: 700 28px var(--font-family-Ballo);
+  --text-sm: 700 18px var(--font-family-Ballo);
+  --text-md-Open: 600 16px var(--font-family-OpenSans);
+  --text-sm-Open: 600 14px var(--font-family-OpenSans);
+  --text-xs-Open: 600 12px var(--font-family-OpenSans);
+
+  --color-text-body: #c8cdd0;
+  --color-text-hearding: #f9f9f9;
+
+  --color-brand-light: #59b2ff;
+  --color-brand-midle: #3487cf;
+  --color-brand-dark: #1d6fb6;
+
+  --color-accent-purple: #b259ff;
+  --color-accent-fuschia: #ff59f9;
+  --color-accent-pink: #ff598b;
+  --color-accent-orange: #ff8b59;
+  --color-accent-yellow: #ffcd59;
+  --color-accnet-lime: #e1ff59;
+  --color-accent-green: #59ff91;
+  --color-accent-cyan: #59fff9;
+  --color-accent-navy: #6a59ff;
+
+  --color-feedback: #ff5959;
+
+  --color-input-base: #1c1f21;
+  --color-input-stroke: #363b40;
+  --color-input-placeholder: #869198;
+
+  --color-shape-bg: #000000;
+  --color-shape-body: #212427;
+  --color-shape-button: #2d3136;
+  --color-shape-hover: #383d42;
+}
+
+body {
+  background-color: var(--color-shape-bg);
+  padding-top: 1.25rem;
+}
+
+.container {
+  background-color: rgba(36, 0, 0, 0.2);
+  width: 560px;
+  margin: 0 auto;
+  padding: 0 1.25px;
+  height: 100%;
+}
