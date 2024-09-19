@@ -33,9 +33,73 @@
         </div>
       </aside>
       <main>
-          <div class="container">
-    
-          </div>
+        <div class="container">
+          <form>
+            <h1>Crie seu convite</h1>
+            <p>
+              <img
+                src="./assets/icon/calendar.svg"
+                alt="ícone de calendário"
+                class="icon"
+              />
+              Sobre o evento
+            </p>
+
+            <div class="input-content">
+              <label for="event-name">Título</label>
+              <input
+                type="text"
+                id="event-name"
+                name="event-name"
+                placeholder="Digite o nome do evento"
+              />
+            </div>
+
+            <div class="input-content">
+              <label for="event-date">Início</label>
+              <input
+                type="date"
+                id="event-date"
+                name="event-date"
+                placeholder="DD/MM/AAAA, --:--"
+              />
+            </div>
+
+            <div class="input-content">
+              <label for="event-date">Fim</label>
+              <input
+                type="date"
+                id="event-date"
+                name="event-date"
+                placeholder="DD/MM/AAAA, --:--"
+              />
+            </div>
+
+            <div class="input-content">
+              <label for="event-type">Horário do evento</label>
+              <input type="text" id="event-type" name="event-type" />
+            </div>
+
+            <div class="input-content">
+              <label for="event-location">Local</label>
+              <input
+                type="text"
+                id="event-location"
+                name="event-location"
+                placeholder="Link ou endereço"
+              />
+            </div>
+
+            <div class="input-content">
+              <label for="message">Descrição</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Digite sobre os detalhes do evento"
+              ></textarea>
+            </div>
+          </form>
+        </div>
       </main>
     </div>
   </body>
