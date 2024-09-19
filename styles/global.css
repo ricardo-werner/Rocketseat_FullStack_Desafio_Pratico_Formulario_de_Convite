@@ -48,6 +48,7 @@
 body {
   background-color: var(--color-shape-bg);
   padding-top: 1.25rem;
+  color: var(--color-text-body)
 }
 
 .container {
@@ -56,4 +57,9 @@ body {
   margin: 0 auto;
   padding: 0 1.25px;
   height: 100%;
+}
+
+img {
+  width: 24px;
+  height: 24px;
 }
