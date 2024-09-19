@@ -44,8 +44,3 @@ aside {
   color: var(--color-text-hearding);
   margin: 0.5rem 0;
 }
-
-.icon {
-  width: 50px; /* Tamanho do ícone */
-  margin-bottom: 1rem;
-}
