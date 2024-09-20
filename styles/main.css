@@ -5,14 +5,14 @@ main {
   padding: 0 1.25rem;
 }
 
-.container form h1 {
+.container h1 {
   font-family: var(--font-family-Ballo);
   color: var(--color-text-heading);
   padding-top: 80px;
   margin-bottom: 40px;
 }
 
-.container form p {
+.container p {
   display: flex;
   align-items: center;
   font-family: var();
